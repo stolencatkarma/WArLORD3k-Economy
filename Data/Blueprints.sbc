@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneToUniversalMatter</SubtypeId>
+      </Id>
+      <DisplayName>Stone Universal Matter</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="UniversalMatter" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UniversalMatterToAll</SubtypeId>
+      </Id>
+      <DisplayName>Universal Matter To All</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="UniversalMatter" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

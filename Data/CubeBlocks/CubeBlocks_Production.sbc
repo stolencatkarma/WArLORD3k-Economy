@@ -50,7 +50,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>1.00</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>CommonMetals</Class>
+        <Class>UniversalMatter</Class>
       </BlueprintClasses>
       <RefineSpeed>0.25</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -61,7 +61,7 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+      <OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
       <PCU>200</PCU>
     </Definition>
   </CubeBlocks>

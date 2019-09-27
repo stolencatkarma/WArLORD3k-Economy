@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>UniversalMatter</SubtypeId>
+      </Id>
+      <DisplayName>Universal Matter</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\universal_matter.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\ingot\universal_matter.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    <Entry Class="UniversalMatter" BlueprintSubtypeId="StoneToUniversalMatter" />
+    <Entry Class="UniversalMatter" BlueprintSubtypeId="UniversalMatterToAll" />
+  </BlueprintClassEntries>
+</Definitions>
